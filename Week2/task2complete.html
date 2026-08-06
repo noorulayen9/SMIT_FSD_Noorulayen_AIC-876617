@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Beauty Salon Appointment Form</title>
+<style>
+        body {
+  background-color: #f8d7da;
+}
+        .container{
+    width:650px;
+    margin:20px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+
+h1,h2 {
+  text-align: center;
+}
+table{
+    width:80%;
+}
+td{
+    padding:8px;
+}
+button {
+  color: white;
+  cursor: pointer;
+    padding: 15px 25px;
+}
+.button {background-color:#c2185b;} 
+
+</style>
+</head>
+<body>
+    <div class="container">
+
+        <h1 style="color:#c2185b">Beauty Salon</h1>
+<h2 style="color:#c2185b">Online Appointment Form</h2>
+<center>
+<table>
+        <tr>
+<td>Name*</td>
+<td>
+    <input 
+    placeholder="Enter your name"
+    maxlength="15"
+     type="text" 
+    required>
+</td>
+
+<td>Phone*</td>
+<td>
+    <input 
+placeholder="Enter your phone no"
+    maxlength="11"
+    type="tel" 
+    required>
+</td>
+</tr>
+<tr>
+<td>Email*</td>
+<td>
+    <input
+placeholder="Enter your email"
+ type="email" 
+ required>
+</td>
+
+<td>Age</td>
+<td><input
+    placeholder="Enter your age"
+    type="number"
+    maxlength="3">
+</td>
+</tr>
+
+<tr>
+<td>Date*</td>
+<td>
+    <input
+    type="date" 
+     required>
+ </td>
+
+<td>Time*</td>
+<td>
+    <input
+ type="time" 
+ required>
+</td>
+</tr>
+</table>
+</center>
+<hr/>
+<h3>Select Service</h3>
+
+<input type="radio" name="service"> Hair Cut<br>
+<input type="radio" name="service"> Hair Color<br>
+<input type="radio" name="service"> Facial<br>
+<input type="radio" name="service"> Party Makeup<br>
+<input type="radio" name="service"> Bridal Makeup
+<hr/>
+<h3>Additional Services</h3>
+<input type="checkbox"> Hair Spa<br>
+<input type="checkbox"> Manicure<br>
+<input type="checkbox"> Pedicure<br>
+<input type="checkbox"> Waxing<br>
+<input type="checkbox"> Threading<br>
+<input type="checkbox"> Nail Art
+<hr/>
+
+
+<label>Beautician Preference</label>
+<select>
+<option>Senior Beautician</option>
+<option>Junior Beautician</option>
+<option>No Preference</option>
+</select>
+<hr/>
+<h3>Special Instructions</h3>
+
+<textarea 
+rows="5" 
+cols="80" 
+ placeholder="Write your message here...">
+</textarea>
+<center>
+<button class="button button"
+ type="submit">Book Appointment</button>
+
+</center>
+</div> 
+</body>
+</html>
